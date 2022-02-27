@@ -52,6 +52,10 @@ export default makeStyles((theme) => ({
       color: "black",
     },
   },
+  aboutSection: {
+    width: "90vw",
+    maxWidth: "800px",
+  },
   aboutButton: {
     marginTop: "80vh",
     backgroundColor: "black",
