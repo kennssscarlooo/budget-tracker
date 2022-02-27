@@ -7,10 +7,10 @@ function About() {
   const classes = useStyle();
   const historyList = useHistory();
   return (
-    <div className={classes.aboutSection}>
+    <div className={classes.middle}>
       <div className="middle">
         <h1>About</h1>
-        <div className="about-content">
+        <div className={classes.aboutSection}>
           <p>
             This is a budget tracker app wherein you can add three different
             types of transaction and each type has different categories. This
