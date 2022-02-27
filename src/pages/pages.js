@@ -52,12 +52,18 @@ export default makeStyles((theme) => ({
       color: "black",
     },
   },
+  middle: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
   aboutSection: {
+    margin: "30px auto",
     width: "90vw",
-    maxWidth: "800px",
+    maxWidth: "700px",
   },
   aboutButton: {
-    marginTop: "80vh",
+    marginTop: "70vh",
     backgroundColor: "black",
     fontSize: "12px",
     color: "white",
