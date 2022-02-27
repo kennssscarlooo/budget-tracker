@@ -9,27 +9,26 @@ import {
 export const Sidebar = [
   {
     title: "Dashboard",
-    path: "/budget-tracker-v1/",
+    path: "/",
     icon: <DashboardRounded />,
     cName: "nav-item",
   },
   {
     title: "History",
-    path: "/budget-tracker-v1/history",
+    path: "/history",
     icon: <HistoryRounded />,
     cName: "nav-item",
   },
   {
     title: "Charts",
-    path: "/budget-tracker-v1/charts",
+    path: "/charts",
     icon: <PieChartRounded />,
     cName: "nav-item",
   },
   {
     title: "About",
-    path: "/budget-tracker-v1/about",
+    path: "/about",
     icon: <InfoRounded />,
     cName: "nav-item",
   },
 ];
-

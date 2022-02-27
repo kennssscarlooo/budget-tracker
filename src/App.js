@@ -12,10 +12,10 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/budget-tracker/" exact component={Dashboard} />
-        <Route path="/budget-tracker/charts" component={Charts} />
-        <Route path="/budget-tracker/history" component={History} />
-        <Route path="/budget-tracker/about" component={About} />
+        <Route path="/" exact component={Dashboard} />
+        <Route path="/charts" component={Charts} />
+        <Route path="/history" component={History} />
+        <Route path="/about" component={About} />
       </Switch>
     </Router>
   );

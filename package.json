@@ -1,6 +1,5 @@
 {
   "name": "budget-tracker",
-  "homepage": "https://kennssscarlooo.github.io/budget-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

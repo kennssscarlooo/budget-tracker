@@ -49,7 +49,7 @@ const ChartOverview = ({ title }) => {
         <Button
           className={classes.button}
           variant="contained"
-          onClick={() => history.push("/budget-tracker-v1/charts")}
+          onClick={() => history.push("/charts")}
         >
           View all
         </Button>

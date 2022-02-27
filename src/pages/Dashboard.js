@@ -46,7 +46,7 @@ const Dashboard = (props) => {
               <Button
                 className={classes.button}
                 variant="contained"
-                onClick={() => history.push("/budget-tracker-v1/history")}
+                onClick={() => history.push("/history")}
               >
                 View all
               </Button>
