@@ -32,7 +32,7 @@ export default makeStyles((theme) => ({
   section: {
     margin: "10px auto",
     width: "90vw",
-    maxWidth: "800px",
+    maxWidth: "1200px",
   },
   recent: {
     borderRadius: "10px",
