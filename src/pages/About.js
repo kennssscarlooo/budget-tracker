@@ -7,7 +7,7 @@ function About() {
   const classes = useStyle();
   const historyList = useHistory();
   return (
-    <div className="section">
+    <div className={classes.aboutSection}>
       <div className="middle">
         <h1>About</h1>
         <div className="about-content">
