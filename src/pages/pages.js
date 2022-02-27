@@ -31,7 +31,7 @@ export default makeStyles((theme) => ({
   },
   section: {
     margin: "10px auto",
-    width: "90vw",
+    width: "90%",
     maxWidth: "1200px",
   },
   recent: {
